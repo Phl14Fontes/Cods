@@ -1,0 +1,40 @@
+Link para código no Kotlin Playground -> https://pl.kotl.in/saYls8Yvb
+
+Linhas de código:
+
+//Calculadora Pedro Fontes (Bootcamp Everis DIO)
+fun main(){
+
+//Entrada usuário: Adicione valores de sua escolha para as variáveis "n1" e "n2"
+//Em caso de valores decimais, utilize ponto no lugar da vírgula 
+//Sempre no final dos valores acrescentar 'f'. Exemplo: '5f' ou '5.5f'
+//1 - SOMA                           //Verifique o índice e escolha qual operador deseja utilizar
+//2 - SUBTRAÇÃO                      //Em seguida, substitua o valor da variável "operador"
+//3 - DIVISÃO                        
+//4 - MULTIPLICAÇÃO
+
+//Declare aqui:
+
+    var a:Float? = 7.88f
+    var b:Float? = 2.12f
+
+if(a != null && b != null) {  
+    println("Informações corretas, aplicando operação...")
+    
+    
+    val operador = 2
+    var resultado:Float? = null
+    
+    when (operador) {
+        1 -> resultado = a.plus(b)
+        2 -> resultado = a.minus(b)
+        3 -> resultado = a.div(b)
+        4 -> resultado = a.times(b)
+    else -> {
+      println("Indice inválido. Substitua o valor de 'operador' conforme orientações")}}
+    println("Resultado = $resultado")
+    
+    } else {
+        println("Erro: valor nulo. Altere 'a' e/ou 'b' para completar a conta")}
+
+}
