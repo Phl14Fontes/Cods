@@ -1,3 +1,2 @@
-CODS // BOOTCAMP EVERIS
-DIO - Atividades propostas 
-Kotlin
+CODS // BOOTCAMP KOTLIN
+DIO - Everis 
