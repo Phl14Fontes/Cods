@@ -1,0 +1,38 @@
+````
+//BOOTCAMP | KOTLIN - Everis/DIO
+//Exercicio: Sistema de controle/ teto salarial
+//Requisitos: utilizar if-else
+//Autoria Própria (Exercicio)
+
+fun main(){ 
+
+val salario1 = 1000 //analyst
+val salario2 = 2250 //manager
+val salario3 = 4000//executive 
+    
+
+    println("Relatórios salarios: teto/cargo | controle") //Saída Usuário Tópico
+    println("--------------------------")
+    if (salario1 <= 1800){
+        println(" SAL analyst: OK")
+    } else {
+        println("Analyst: Teto violado")
+    }
+    
+    println("--------------------------")
+         if  (salario2 <= 2500){
+        println(" SAL manager: OK")
+         }else {
+             println("Manager: Teto violado")
+         }
+         
+         println("--------------------------")
+         
+         if   (salario3 <= 4000){
+        println(" SAL executive: OK")
+         }else {
+             println(" Executive: Teto violado")
+         }
+     
+     }
+````
