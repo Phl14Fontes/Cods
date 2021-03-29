@@ -6,7 +6,7 @@ fun main() {
     salarios[1] = 3000.0
     salarios[2] = 500.0
 
-    salarios.sort() //coloca em ordem decrescente antes da impressão
+    salarios.sort() //coloca em ordem crescente antes da impressão
     salarios.forEach { println(it) } //imprime salarios
 
     println("----------------------")
@@ -18,7 +18,7 @@ fun main() {
 
     println("----------------------")
     val salarios2 = doubleArrayOf(1500.0, 1250.0, 5000.0)
-    salarios2.sort() //coloca em ordem decrescente antes da impressão
+    salarios2.sort() //coloca em ordem crescente antes da impressão
     salarios2.forEach { println(it) } //imprime salario2
 }
 
