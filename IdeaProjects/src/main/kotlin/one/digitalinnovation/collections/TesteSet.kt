@@ -1,5 +1,7 @@
 package one.digitalinnovation.collections
 
+//set == conjunto(união, intersecção e subtração)
+
 fun main() {
     val joao = funcionario("Joao", 2000.0, "CLT")
     val pedro = funcionario("Pedro", 1500.0, "PJ")
